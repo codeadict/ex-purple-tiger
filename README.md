@@ -20,14 +20,27 @@ def deps do
 end
 ```
 
-### Running tests
+## Usage Examples
+
+```elixir
+iex> ExPurpleTiger.animal_hash("my ugly input string")
+{:ok, "rapid grey rattlesnake"}
+
+iex> ExPurpleTiger.animal_hash("my ugly input string", style: :uppercase)
+{:ok, "RAPID GREY RATTLESNAKE"}
+
+iex> ExPurpleTiger.animal_hash("my ugly input string", separator: "-", style: :titlecase)
+{:ok, "Rapid-Grey-Rattlesnake"}
+```
+
+## Running tests
 
 Clone the repo and fetch its dependencies:
 
-  $ git clone https://github.com/codeadict/ex_purple_tiger.git
-  $ cd ex_purple_tiger
-  $ mix deps.get
-  $ mix test
+    $ git clone https://github.com/codeadict/ex_purple_tiger.git
+    $ cd ex_purple_tiger
+    $ mix deps.get
+    $ mix test
 
 ## Copyright and License
 
