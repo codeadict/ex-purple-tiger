@@ -5,6 +5,9 @@ human-readable. This library is suitble for anthropomorphizing project names,
 crypto addresses, UUIDs, or any complex string of characters that needs to be
 displayed in a user interface.
 
+Original idea and implementation based on [angry-purple-tiger](https://github.com/helium/angry-purple-tiger) from  Helium Systems, Inc.
+Thanks to them for comming up with such a fun library.
+
 **TODO** Release initial version.
 
 ## Installation
