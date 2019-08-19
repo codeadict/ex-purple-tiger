@@ -8,11 +8,9 @@ displayed in a user interface.
 Original idea and implementation based on [angry-purple-tiger](https://github.com/helium/angry-purple-tiger) from  Helium Systems, Inc.
 Thanks to them for coming up with such a fun library.
 
-**TODO** Release initial version.
-
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+If [available in Hex](https://hex.pm/packages/ex_purple_tiger), the package can be installed
 by adding `ex_purple_tiger` to your list of dependencies in `mix.exs`:
 
 ```elixir
